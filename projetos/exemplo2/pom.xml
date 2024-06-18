@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.software3.0</groupId>
-	<artifactId>exemplo1</artifactId>
+	<artifactId>exemplo2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>exemplo1</name>
+	<name>exemplo2</name>
 	<description>Integração com ChatGPT</description>
 	<properties>
 		<java.version>17</java.version>
@@ -29,6 +29,11 @@
 		<dependency>
 			<groupId>dev.langchain4j</groupId>
 			<artifactId>langchain4j</artifactId>
+			<version>0.31.0</version>
+		</dependency>
+		<dependency>
+			<groupId>dev.langchain4j</groupId>
+			<artifactId>langchain4j-document-parser-apache-pdfbox</artifactId>
 			<version>0.31.0</version>
 		</dependency>
 		<dependency>
