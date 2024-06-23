@@ -1,4 +1,4 @@
-package com.software30.exemplo4.controller.dto.config;
+package com.software30.exemplo4.config;
 
 import com.software30.exemplo4.service.Assistent;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
